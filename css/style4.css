@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    background-color: #013570;
+}
+
+p,
+h1,
+h2,
+h3,
+a {
+    font-family: 'unifont';
+    line-height: 1.4;
+}
+
+@font-face {
+    font-family: 'unifont';
+    src: url('/unifont-17.0.02.otf') format('opentype');
+}
+
+
+/*header top*/
+header {
+    background-color: #003266;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    top: 0;
+    border-bottom: 3px solid #3845F1;
+}
+
+header h1 {
+    color: white;
+    font-size: 2em;
+    margin-left: 60px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 1px;
+    margin-right: 60px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    font-size: 1.2em;
+    padding: 0.5em 1em;
+    background-color: #1d3f7a;
+    border: 3px inset #3845F1;
+    border-radius: 5px;
+    transition: all 0.2s ease-in;
+}
+
+nav a:hover {
+    background-color: #1C6DC3;
+    border-style: outset;
+}
+
+.now {
+    background-color: #1C6DC3;
+    border-style: outset;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+}
+
+main {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    width: 100%;
+    height: 450px;
+}
+
+main a {
+    display: inline-block;
+    padding: 30px;
+    text-decoration: none;
+    color: white;
+    font-size: 2em;
+    background-color: #252DA1;
+    transition: all 0.2s ease-out;
+}
+
+main a:hover {
+    transform: scale(1.05);
+    background-color: #1C6DC3;
+    border-style: outset;
+}
+
+.border {
+    border: 5px inset #3845F1;
+}
+
+footer{
+    align-items: center;
+    margin-top: 150px;
+    width: 100%;
+    height: 100px;
+    top: 0;
+  
+}
