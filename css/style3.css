@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    background-color: #013570;
+    background: radial-gradient(#0d519a,#013570);
 }
 p,h1,h2,h3,a{
     font-family: 'unifont';
@@ -166,10 +166,33 @@ h2{
 
 /*footer*/
 footer{
+   
+background-size:contain;
+       text-align:center;
+   
     align-items: center;
-    margin-top: 80px;
+margin-top: 100px;
     width: 100%;
     height: 100px;
     top: 0;
-  
+  font-family: 'unifont';
+}
+footer p{
+    position: relative; 
+    bottom:-20px;
+    font-family: 'unifont';
+font-size:16px;
+    color:#ffffff;
+     background-color:#00000085;
+     display: inline;
+    padding:5px;
+    
+}
+footer a{
+     color:#ffffff;
+ 
+     display: inline-block;
+    font-family: 'unifont';
+    font-size:20px;
+    padding:0 20px 0 20px
 }
